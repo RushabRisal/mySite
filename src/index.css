@@ -8,4 +8,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+  html{
+    scroll-behavior: smooth;
+  }
+ 
+}
+@layer components{
+  .own{
+    background: linear-gradient(to right, rgba(255,255,255,0.4),rgba(0,0,0,0.9));
+  }
+
 }
