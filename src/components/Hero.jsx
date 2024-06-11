@@ -8,7 +8,7 @@ const Hero = () => {
             </h1>
             <h1 className="text-xl font-md md:font-bold md:text-2xl">
                 Hi! I'm Rushab Risal a{" "}
-               <ReactTyped  strings={["Web Developer"]}      typeSpeed={20} backSpeed={20} cursorChar="!" showCursor={true}/>
+               <ReactTyped  strings={["Web Developer"]}      typeSpeed={80} backSpeed={20} cursorChar="!" showCursor={true}/>
 
             </h1>
         </div>
