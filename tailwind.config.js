@@ -7,8 +7,16 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        "img1":"url('./image/background.png')",
-        "img2":"url('./image/second.jpg')"
+        "img1":"url('./image/leafback.jpg')",
+        "img2":"url('./image/second.jpg')",
+        "mine":"url('./image/rushabcrop.jpg')"
+      },
+      container:{
+        padding:{
+          "md":"2rem",
+          "sm":"3rem"
+        }
+        
       }
     
     },

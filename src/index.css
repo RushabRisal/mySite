@@ -12,10 +12,23 @@
     scroll-behavior: smooth;
   }
   body{
+
    
   }
-}
-@layer components{
+  
+  }
+  @layer components{
+  .gwendolyn-regular {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gwendolyn-bold {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 1000;
+    font-style: normal;
+  }
   .own{
     background: linear-gradient(to bottom, rgba(255,255,255,0.3),rgba(0,0,0,0.4));
   }
