@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,12 +8,11 @@ function App() {
   return (
     <>
  
-      <div className='h-dvh w-full bg-img2 bg-cover bg-no-repeat bg-center flex justify-center items-center bg-fixed relative'>
-          <div className='w-1/2 h-44 absolute bottom-0 own  backdrop-blur-sm bg-fixed text-white flex justify-center items-center rounded-t-2xl'>
-             <a href='#body'>Click me</a> 
-          </div>
+      <div className='h-dvh w-full bg-img2 bg-cover bg-no-repeat bg-center flex justify-center items-center bg-fixed relative text-white '>
+        <Header/>
+         
       </div>
-      <div className='h-dvh w-full flex justify-center items-center dark:bg-black dark:text-white'>
+      <div className='h-dvh w-full flex justify-center items-center dark:bg-black/80 dark:text-white'>
        <i class="fa-solid fa-r ani "></i>
         </div> 
    
