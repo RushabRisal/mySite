@@ -13,9 +13,9 @@ function App() {
         <div className=' flex justify-center items-center h-dvh w-full'>
             <Landing/>
         </div>
-        <div id='hero' className='relative flex justify-center items-center h-dvh w-full bg-img1 bg-cover bg-center bg-no-repeat bg-fixed'>
+        <div id='hero' className=' flex justify-center items-center h-dvh w-full '>
 
-            <Header/>
+            
             <Hero/>
         </div>
 
