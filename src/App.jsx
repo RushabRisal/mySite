@@ -10,15 +10,16 @@ function App() {
 
   return (
     <>
+
         <div className=' flex justify-center items-center h-dvh w-full'>
-            <Landing/>
+            <Landing />
         </div>
         <div id='hero' className=' flex justify-center items-center h-dvh w-full '>
 
             
             <Hero/>
         </div>
-
+        
 
     </>
   )
