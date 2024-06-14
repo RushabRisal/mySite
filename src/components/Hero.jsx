@@ -21,7 +21,7 @@ const Hero = () => {
                             Minimalism is a form of attraction.
                         </h1>
                     </p>
-                    <ul className="absolute bottom-[120px] md:bottom-[130px] left-[40px] md:left-[140px] text-[24px] blur-[1px] font-serif font-normal text-[#222831]">
+                    <ul className="absolute bottom-[120px] md:bottom-[130px] left-[40px] md:left-[100px] text-[16px] md:text-[23px] blur-[1px] font-serif font-normal text-[#222831]">
                         <li>Simplicity</li>
                         <li>Curiosity</li>
                         <li>Dedication</li>
