@@ -1,5 +1,4 @@
-import { ReactTyped } from "react-typed";
-import rus from '../image/rushabcrop.jpg'
+
 import Header from "./Header";
 const Hero = () => {
     return (  
