@@ -1,13 +1,16 @@
 import Logo from "./Logo";
 import NavContent from "./NavContent";
 
-const Header = () => {
+const Header = ({handleSideBar}) => {
     return (
-      <nav className="absolute top-0 right-0 left-0  flex justify-between md:justify-center   items-center  text-white    ">
+      <nav className="absolute top-0 right-0 left-0 mt-3 flex justify-between md:justify-center   items-center  text-white  z-10 ">
         <Logo/>
-        <button ><i class="fa-solid fa-bars md:hidden
-         p-3"></i></button> 
-        <NavContent/>
+        <button onClick={handleSideBar}><i className={`fa-solid fa-bars md:hidden 
+         p-3 `}></i></button> 
+         <div className="hidden md:flex">
+            <NavContent/>
+
+         </div>
       </nav>
     );
 }
